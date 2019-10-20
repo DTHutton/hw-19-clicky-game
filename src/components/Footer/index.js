@@ -6,10 +6,11 @@ const Footer = props => {
         <div>
             <footer className="page-footer">
                 <div className="footer-copyright">
-                    <div className="container">
-                        © Clicky Game by Derek Hutton
-            <a className="grey-text text-lighten-4 right" href="https://github.com/DTHutton/hw-19-clicky-game">GitHub Repo</a>
-                    </div>
+                    <p className="copywrite-text">© Clicky Game by Derek Hutton</p>
+
+                    <a className="repo-link" href="https://github.com/DTHutton/hw-19-clicky-game">
+                        GitHub Repo
+                    </a>
                 </div>
             </footer>
         </div>
