@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "name": "Eevee",
+      "image": "https://cdn.bulbagarden.net/upload/e/e2/133Eevee.png"
+    },
+    {
+      "id": 2,
+      "name": "Vaporeon",
+      "image": "https://cdn.bulbagarden.net/upload/f/fd/134Vaporeon.png"
+    },
+    {
+      "id": 3,
+      "name": "Jolteon",
+      "image": "https://cdn.bulbagarden.net/upload/b/bb/135Jolteon.png"
+    },
+    {
+      "id": 4,
+      "name": "Flareon",
+      "image": "https://cdn.bulbagarden.net/upload/d/dd/136Flareon.png"
+    },
+    {
+      "id": 5,
+      "name": "Espeon",
+      "image": "https://cdn.bulbagarden.net/upload/a/a7/196Espeon.png"
+    },
+    {
+      "id": 6,
+      "name": "Umbreon",
+      "image": "https://cdn.bulbagarden.net/upload/3/3d/197Umbreon.png"
+    },
+    {
+      "id": 7,
+      "name": "Leafeon",
+      "image": "https://cdn.bulbagarden.net/upload/f/f5/470Leafeon.png"
+    },
+    {
+      "id": 8,
+      "name": "Glaceon",
+      "image": "https://cdn.bulbagarden.net/upload/2/23/471Glaceon.png"
+    },
+    {
+      "id": 9,
+      "name": "Sylveon",
+      "image": "https://cdn.bulbagarden.net/upload/e/e8/700Sylveon.png"
+    }
+  ]
+  
