@@ -1,10 +1,13 @@
 import React from "react"
+import "./style.css"
 
 const ClickCards = props => {
     return (
-        <div>
-            <h1>This is the ClickCards component.</h1>
-        </div>
+            <div className="card">
+                <div className="card-image">
+                    <img alt={props.name} src={props.image} />
+                </div>
+            </div>
     )
 }
 
