@@ -18,15 +18,17 @@ class App extends Component {
     return (
       <div className="App container" >
         <Navbar />
-        {this.state.pokemon.map(pokemon => (
-          <ClickCards
-            onClick={this.handleClick}
-            id={pokemon.id}
-            key={pokemon.id}
-            name={pokemon.name}
-            image={pokemon.image}
-          />
-        ))}
+        <CardWrapper>
+          {this.state.pokemon.map(pokemon => (
+            <ClickCards
+              onClick={this.handleClick}
+              id={pokemon.id}
+              key={pokemon.id}
+              name={pokemon.name}
+              image={pokemon.image}
+            />
+          ))}
+        </CardWrapper>
         <Footer />
       </div>
     );
