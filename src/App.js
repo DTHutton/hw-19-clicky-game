@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
 import Navbar from "./components/Navbar"
+import CardWrapper from "./components/CardWrapper"
 import ClickCards from "./components/ClickCards"
 import Footer from "./components/Footer"
 import pokemon from "./pokemon.json"
 
 class App extends Component {
-
   state = {
     pokemon
   }

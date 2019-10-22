@@ -1,12 +1,13 @@
 import React from "react"
+import "./style.css"
 
 const ClickCards = props => {
     return (
-        <div class="card">
-            <div class="card-image">
-                <img alt={props.name} src={props.image} />
+            <div className="card">
+                <div className="card-image">
+                    <img alt={props.name} src={props.image} />
+                </div>
             </div>
-        </div>
     )
 }
 
