@@ -4,9 +4,11 @@ import Navbar from "./components/Navbar"
 import CardWrapper from "./components/CardWrapper"
 import ClickCards from "./components/ClickCards"
 import Footer from "./components/Footer"
+import Wrapper from "./components/Wrapper"
 import pokemon from "./pokemon.json"
 
 class App extends Component {
+
   state = {
     pokemon
   }
@@ -14,9 +16,10 @@ class App extends Component {
   handleClick = props => {
     console.log("click works")
   }
+
   render() {
     return (
-      <div className="App container" >
+      <Wrapper>
         <Navbar />
         <CardWrapper>
           {this.state.pokemon.map(pokemon => (
@@ -30,7 +33,7 @@ class App extends Component {
           ))}
         </CardWrapper>
         <Footer />
-      </div>
+      </Wrapper>
     );
   }
 }
