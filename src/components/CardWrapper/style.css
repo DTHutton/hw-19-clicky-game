@@ -1,9 +1,0 @@
-.card-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-color: black;
-    width: 80%;
-    padding: auto 2.5% auto 2.5%;
-}
