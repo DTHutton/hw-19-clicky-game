@@ -10,12 +10,10 @@ class ClickCards extends Component {
 
     handleClick = event => {
         console.log("click works")
-        
-        for (let i = this.state.pokemon.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [pokemon[i], pokemon[j]] = [pokemon[j], pokemon[i]];
-        }
-        this.setState({ pokemon })
+
+        const shuffleArr = [...this.state.pokemon].sort(() => Math.random() - 0.5);
+
+        this.setState({ pokemon: shuffleArr })
     }
 
     render() {
