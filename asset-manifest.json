@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/hw-19-clicky-game/static/css/main.1d4e63e6.chunk.css",
+    "main.js": "/hw-19-clicky-game/static/js/main.ae8fad00.chunk.js",
+    "main.js.map": "/hw-19-clicky-game/static/js/main.ae8fad00.chunk.js.map",
+    "runtime-main.js": "/hw-19-clicky-game/static/js/runtime-main.7bcbe815.js",
+    "runtime-main.js.map": "/hw-19-clicky-game/static/js/runtime-main.7bcbe815.js.map",
+    "static/js/2.7eb94425.chunk.js": "/hw-19-clicky-game/static/js/2.7eb94425.chunk.js",
+    "static/js/2.7eb94425.chunk.js.map": "/hw-19-clicky-game/static/js/2.7eb94425.chunk.js.map",
+    "index.html": "/hw-19-clicky-game/index.html",
+    "precache-manifest.15324f423bf9a8a8b1388a6ac8fb5528.js": "/hw-19-clicky-game/precache-manifest.15324f423bf9a8a8b1388a6ac8fb5528.js",
+    "service-worker.js": "/hw-19-clicky-game/service-worker.js",
+    "static/css/main.1d4e63e6.chunk.css.map": "/hw-19-clicky-game/static/css/main.1d4e63e6.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7bcbe815.js",
+    "static/js/2.7eb94425.chunk.js",
+    "static/css/main.1d4e63e6.chunk.css",
+    "static/js/main.ae8fad00.chunk.js"
+  ]
+}
