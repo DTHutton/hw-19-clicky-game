@@ -6,11 +6,11 @@ class ClickCards extends Component {
 
     state = {
         pokemon,
-        guessedArr: []
+        guessedArr: [],
+        highScore: []
     }
 
     // gameOver() {
-    //     empty guessedArr
     //     reset score
     //     log high score
     //     compare score with high score
@@ -19,14 +19,25 @@ class ClickCards extends Component {
     handleClick = id => {
 
         if (this.state.guessedArr.includes(id)) {
-            alert("you lose")
-            
-            this.setState({
-                pokemon,
-                guessedArr: []
-            })
+            alert("Game Over")
+
+            const roundScore = this.state.guessedArr.length
+
+            if (roundScore >= this.state.highScore) {
+                this.setState({
+                    pokemon,
+                    guessedArr: [],
+                    highScore: roundScore
+                })
+            } else {
+                this.setState({
+                    pokemon,
+                    guessedArr: []
+                })
+            }
+
             return
-        } 
+        }
 
         const addIdToArray = [...this.state.guessedArr, id];
         const shuffleArr = [...this.state.pokemon].sort(() => Math.random() - 0.5);
@@ -39,6 +50,7 @@ class ClickCards extends Component {
 
     render() {
         console.log('guessedArr', this.state.guessedArr);
+        console.log("highScore", this.state.highScore);
         return (
             this.state.pokemon.map(({ id, name, image }) => (
                 <div key={id} className="card">
