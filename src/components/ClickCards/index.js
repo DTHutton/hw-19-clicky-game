@@ -10,12 +10,6 @@ class ClickCards extends Component {
         highScore: []
     }
 
-    // gameOver() {
-    //     reset score
-    //     log high score
-    //     compare score with high score
-    // }
-
     handleClick = id => {
 
         if (this.state.guessedArr.includes(id)) {
@@ -35,7 +29,6 @@ class ClickCards extends Component {
                     guessedArr: []
                 })
             }
-
             return
         }
 
