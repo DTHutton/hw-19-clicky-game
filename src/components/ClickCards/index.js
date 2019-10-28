@@ -19,7 +19,12 @@ class ClickCards extends Component {
     handleClick = id => {
 
         if (this.state.guessedArr.includes(id)) {
-            // gameover()
+            alert("you lose")
+            
+            this.setState({
+                pokemon,
+                guessedArr: []
+            })
             return
         } 
 
