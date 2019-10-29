@@ -4,10 +4,13 @@ import pokemon from "../../pokemon.json"
 
 class ClickCards extends Component {
 
-    state = {
-        pokemon,
-        guessedArr: [],
-        highScore: []
+    constructor(props) {
+        super(props);
+        this.state = {
+            pokemon,
+            guessedArr: [],
+            highScore: 0
+        }
     }
 
     handleClick = id => {
@@ -42,8 +45,8 @@ class ClickCards extends Component {
     }
 
     render() {
-        console.log('guessedArr', this.state.guessedArr);
-        console.log("highScore", this.state.highScore);
+        console.log('Round Score: ', this.state.guessedArr.length);
+        console.log("High Score: ", this.state.highScore);
         return (
             this.state.pokemon.map(({ id, name, image }) => (
                 <div key={id} className="card">
@@ -58,7 +61,6 @@ class ClickCards extends Component {
                     </div>
                 </div>
             ))
-
         )
     }
 }

@@ -11,7 +11,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Navbar />
+        <Navbar score={this.props.guessedArr} highScore={this.props.highScore}/>
         <CardWrapper>
           <ClickCards />
         </CardWrapper>
